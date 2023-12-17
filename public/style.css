@@ -1,0 +1,53 @@
+.robot {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.head {
+  width: 50px;
+  height: 50px;
+  background-color: gray;
+  border-radius: 50%;
+  margin-bottom: -30px;
+  margin-top: 20px;
+}
+
+.body {
+  width: 60px;
+  height: 100px;
+  background-color: gray;
+  margin-top: -25px;
+}
+
+.arms, .legs {
+  display: flex;
+  justify-content: space-around;
+}
+
+.left-arm, .right-arm, .left-leg, .right-leg {
+  width: 10px;
+  height: 80px;
+  background-color: gray;
+}
+
+.left-arm {
+  transform: rotate(120deg);
+  margin-right: 60px;
+}
+
+.right-arm {
+  transform: rotate(-120deg);
+  margin-left: 60px;
+}
+
+.left-leg {
+  transform: rotate(25deg);
+  margin-right: 37px;
+}
+
+.right-leg {
+  transform: rotate(-25deg);
+  margin-left: 37px;
+}
